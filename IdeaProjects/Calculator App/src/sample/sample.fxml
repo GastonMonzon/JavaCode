@@ -1,0 +1,27 @@
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+
+<GridPane fx:controller="sample.Controller"
+          xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="10" vgap="10">
+    <Button fx:id="7" text="7" GridPane.rowIndex="0" GridPane.columnIndex="0" GridPane.fillWidth="0"/>
+    <Button fx:id="8" text="8" GridPane.rowIndex="0" GridPane.columnIndex="1"/>
+    <Button fx:id="9" text="9" GridPane.rowIndex="0" GridPane.columnIndex="2"/>
+    <Button fx:id="backspace" text="\\" GridPane.rowIndex="0" GridPane.columnIndex="3"/>
+    <Button fx:id="4" text="4" GridPane.rowIndex="1" GridPane.columnIndex="0"/>
+    <Button fx:id="5" text="5" GridPane.rowIndex="1" GridPane.columnIndex="1"/>
+    <Button fx:id="6" text="6" GridPane.rowIndex="1" GridPane.columnIndex="2"/>
+    <Button fx:id="divide" text="/" GridPane.rowIndex="1" GridPane.columnIndex="3" GridPane.fillWidth="5"/>
+    <Button fx:id="1" text="1" GridPane.rowIndex="2" GridPane.columnIndex="0"/>
+    <Button fx:id="2" text="2" GridPane.rowIndex="2" GridPane.columnIndex="1"/>
+    <Button fx:id="3" text="3" GridPane.rowIndex="2" GridPane.columnIndex="2"/>
+    <Button fx:id="multi" text="*" GridPane.rowIndex="2" GridPane.columnIndex="3"/>
+    <Button fx:id="dot" text="." GridPane.rowIndex="3" GridPane.columnIndex="0"/>
+    <Button fx:id="0" text="0" GridPane.rowIndex="3" GridPane.columnIndex="1"/>
+    <Button fx:id="equal" text="=" GridPane.rowIndex="3" GridPane.columnIndex="2"/>
+    <Button fx:id="minus" text="-" GridPane.rowIndex="3" GridPane.columnIndex="3"/>
+    <Button fx:id="plus" text="+" GridPane.rowIndex="3" GridPane.columnIndex="3"/>
+
+</GridPane>
